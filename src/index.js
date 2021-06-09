@@ -8,7 +8,6 @@ ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
-  <script async defer data-domain="tapads.netlify.app" src="https://plausible.io/js/plausible.js"></script>,
   document.getElementById('root')
 );
 
