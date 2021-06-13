@@ -9,9 +9,13 @@ export default function AllButtons() {
       <h3>Click on these buttons!</h3>
       <div>
       <a href="/" data-analytics='"Register", {"props":{"plan":"Navigation"}}'>Register</a>
+      <br></br>
+      <a href="javascript:void(0);" onclick="sendYesToPlausible();"> Yes!!!!! </a>
+      <br></br>
+      <a href="javascript:void(0);" onclick="sendNoToPlausible();"> No!!!!! </a>
       </div>
       <div>
-            <Link to={"/"} data-analytics='"Register", {"props":{"plan":"Navigation"}}'>
+            <Link to={"/"}>
               <span>
                 <span>
                   <h2>Yes, I want to sign up</h2>
