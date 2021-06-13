@@ -8,7 +8,7 @@ export default function AllButtons() {
       <h2>Buttons</h2>
       <h3>Click on these buttons!</h3>
       <div>
-            <Link to={"/"}>
+            <Link to={"/"} data-analytics='"Register", {"props":{"plan":"Navigation"}}'>
               <span>
                 <span>
                   <h2>Yes, I want to sign up</h2>
