@@ -27,6 +27,16 @@ export default function AllPosts() {
 
   return (
     <div>
+      <h2>Model Registry</h2>
+      <h3>Add model</h3>
+      <h3>Register version</h3>
+      <h3>Assign stage</h3>
+      <h3>View model details</h3>
+      <h3>Etc...</h3>
+      <h3>Etc...</h3>
+
+
+
       <h2>Blog Posts</h2>
       <h3>Welcome to my blog posts page!</h3>
       <div>
